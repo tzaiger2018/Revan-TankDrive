@@ -29,10 +29,9 @@ public class RobotMap {
 	public static final int LEFT_JOYSTICK_USB_PORT_0 = 0;
 	public static final int RIGHT_JOYSTICK_USB_PORT_1 = 1;
 	
-	public static int DRIVETRAIN_TALON_FRONT_LEFT = 3;
-	public static int DRIVETRAIN_TALON_REAR_LEFT = 1;
-	//public static int DRIVRTRAIN_VICTOR_FRONT_RIGHT = 2;
-	//public static int DRIVETRAIN_VICTOR_REAR_RIGHT = 3;
+	public static int DRIVETRAIN_TALON_LEFT = 3;
+	public static int DRIVETRAIN_TALON_RIGHT = 1;
+
 	
 	public static final int EXAMPLE_PNEUMATIC_PORT = 1;
 	

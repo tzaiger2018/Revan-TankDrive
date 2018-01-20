@@ -18,8 +18,8 @@ import edu.wpi.first.wpilibj.command.Subsystem;
 */
 public class DriveTrain extends Subsystem {
 	
-	Talon leftMotor = new Talon(RobotMap.DRIVETRAIN_TALON_FRONT_LEFT);
-	Talon rightMotor = new Talon(RobotMap.DRIVETRAIN_TALON_REAR_LEFT);
+	Talon leftMotor = new Talon(RobotMap.DRIVETRAIN_TALON_LEFT);
+	Talon rightMotor = new Talon(RobotMap.DRIVETRAIN_TALON_RIGHT);
 	//Victor frontrightMotor = new Victor(RobotMap.DRIVRTRAIN_VICTOR_FRONT_RIGHT);
 	//Victor rearrightMotor = new Victor(RobotMap.DRIVETRAIN_VICTOR_REAR_RIGHT);
    
